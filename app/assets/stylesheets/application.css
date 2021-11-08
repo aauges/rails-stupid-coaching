@@ -13,3 +13,67 @@
  *= require_tree .
  *= require_self
  */
+
+.container {
+  margin: 0 auto;
+  width: 600px;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 48px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-layout > input {
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border-style: none;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);;
+}
+
+.submit-btn {
+  background-color: rgb(21, 123, 205);
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: rgb(19, 99, 164);
+  cursor: pointer;
+}
+
+.box-question {
+  background-color: #1270bc;
+  padding: 10px;
+  border-left: 20px solid gray;
+  margin: 10px;
+  color: white;
+}
+
+.box-answer {
+  background-color: #5195cd;
+  padding: 10px;
+  border-left: 20px solid gray;
+  margin: 10px;
+  color: white;
+}
+
+a {
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+a:hover {
+  color: gray;
+}
